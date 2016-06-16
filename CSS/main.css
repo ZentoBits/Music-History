@@ -1,0 +1,71 @@
+/*************************************
+GENERAL STYLING
+*************************************/
+
+* {
+	font-family: Arial;
+}
+
+/************************************
+Color Boxes
+************************************/
+
+.pinky {
+	background: #FFB4B0;
+	border: 2px solid black;
+	margin-bottom: 10px;
+	padding-left: 25px;
+}
+
+.bloo {
+	background: #4DD7FA;
+	border: 2px solid black;
+	width: 350px;
+	height: 390px;
+	float: left;
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.yella {
+	background: #FEFAC0;
+	border: 2px solid black;
+	width: 981px;
+	height: 375px;
+	padding-bottom: 56px;
+	padding-left: 25px;
+	clear: left;
+	position: relative;
+	left: 397px;
+	bottom: 454px;
+}
+
+/**********************************
+Text & Boxes
+**********************************/
+
+button {
+	height: 30px;
+	width: 100px;
+	position: relative;
+	top: 90px;
+	right: 80px;
+}
+
+h2 {
+	color: #785616;
+}
+
+h2:first-child {
+	margin-top: 35px;
+}
+
+.boxalign {
+	float: left;
+}
+
+.boxalign2 {
+	float: left;
+}

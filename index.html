@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music History Mockup</title>
+	<link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+<!--Pink section-->
+	<div class="pinky">
+		<p>
+		View Music|<a href="#">Add Music</a>|<a href="#">Profile</a>
+		</p>
+	</div>
+<!--Blue Section-->
+	<div class="bloo">
+		<p>Song Length:</p>
+		<input type="range">
+		<div>
+			<p>Artist:
+				<ul class="dropdown">
+					<select name="artist" id="">                         
+						<option value="">Nickleback</option>                        
+						<option value="">Smashmouth</option>                       
+						<option value="">Nah</option>                     
+					</select>
+				</ul>
+			</p>
+		</div>
+		<div>
+			<p>Album:
+				<ul class="dropdown">
+					<select name="artist" id="">                         
+						<option value="">1st</option>                        
+						<option value="">2nd</option>                       
+						<option value="">3rd</option>                     
+					</select>
+				</ul>
+			</p>
+		</div>
+		<p>Genre:
+			<ul class="checkbox">
+				<form action="demo_form.asp" method="get">
+  					<div class="boxalign">
+  						<input type="checkbox" name="vehicle" value="Bike"> Rock
+  						<br>
+  						<input type="checkbox" name="vehicle" value="Car" checked="checked"> Pop
+  						<br>
+  						<input type="checkbox" name="vehicle" value="Bike"> Blues
+  						<br>
+  					</div>
+  					<div class="boxalign2">
+  						<input type="checkbox" name="vehicle" value="Bike"> Classical
+  						<br>
+ 						<input type="checkbox" name="vehicle" value="Bike"> Jazz
+  						<br>
+  						<input type="checkbox" name="vehicle" value="Bike"> Hip Hop
+  						<br>
+  					</div>
+  					
+				</form>
+
+			</ul>
+		</p>
+		
+		<button type="button">Filter</button>
+		
+	</div>
+<!--Yellow Section-->
+	<div class="yella">
+		<h2 id="songName"></h2>
+		<p></p>
+		<h2 id="songName1"></h2>
+		<p></p>
+		<h2 id="songName2"></h2>
+		<p></p>
+		<h2 id="songName3"></h2>
+		<p></p>
+		<h2 id="songName4"></h2>
+		<p></p>
+
+	</div>
+	<script src="scripts.js"></script>
+</body>
+</html>
